@@ -1,0 +1,43 @@
+#home_section{
+    display: flex;
+    align-items: center;
+    column-gap: 500px;
+    animation: introUp 2s;
+    img{
+        width: 250px;
+        border-radius: 99999px;
+        padding: 30px;
+        align-items: center;
+        position: left 200px;
+
+    }
+    p {
+                
+        strong{
+            font-size: 30px;
+        }
+            span {
+                color: $color-primario;
+                font-size: 5$fuente-chica;
+                
+            }
+        
+        width: 100px;
+        font-size: $fuente-chica;
+        justify-content: flex-end;
+    }
+    button {
+        width: 150px;
+        font-size: $fuente-chica;
+        color: $color-primario;
+        border: solid 1px $color-primario;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 50px;
+
+    }
+    #descripcion {
+        width: 400px;
+    }
+    
+}
